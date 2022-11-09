@@ -70,6 +70,11 @@ export const Feed = () => {
     return(
         <>
             <h1>Please select Products</h1>
+            <div>
+                <h1>Cart Info</h1>
+                <p>Total Product - 10</p>
+                <p>Total Price - 2000</p>
+            </div>
             <button className="btn btn-danger" onClick={() => {
                 localStorage.removeItem("SHOPPING_TOKEN")
                 localStorage.removeItem("SHOOPING_CART_ID")
