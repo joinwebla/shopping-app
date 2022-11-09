@@ -69,7 +69,7 @@ export const Feed = () => {
 
     return(
         <>
-            <h1>Products visible here</h1>
+            <h1>Please select Products</h1>
             <button className="btn btn-danger" onClick={() => {
                 localStorage.removeItem("SHOPPING_TOKEN")
                 localStorage.removeItem("SHOOPING_CART_ID")
